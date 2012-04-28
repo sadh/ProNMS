@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* For All */
+
+*		{
+		margin: 0;
+		padding: 0;
+		}
+
+a		{
+		text-decoration: none;
+		color: #047;
+		}
+		
+img		{
+		border: none;
+		}
+		
+ul		{
+		margin: 0;
+		padding: 0;
+		}
+		
+li		{
+		list-style: none;
+		}
+		
+input, select	
+		{
+		font: normal 11px Arial;
+		color: #777;
+		}
+
+.clear	{
+		clear: both;
+		}
+		
+body	{
+		font: normal 11px Arial;
+		color: #555;
+		}
+		
+/* Main Divs */
+		
+.container		{
+				width: 950px;
+				margin: 0 auto;
+				}
+				
+.header			{
+				height: 118px;
+				background: url(../images/header_bg.png) repeat-x;
+				}
+								
+				.header h1			{
+									font: normal 36px 'Ubuntu';
+									color: #fff;
+									line-height: 110px;
+									letter-spacing: -2px;
+									text-shadow: 2px 2px 2px #151515;
+									background: url(../images/logo.png) no-repeat 0px 43px;
+									padding-left: 40px;
+									}
+				
+/* Navigation */
+				
+.nav			{
+				float: right;
+				height: 23px;
+				margin-top: 93px;
+				}
+				
+				.nav ul				{
+									text-align: left;
+									}
+								
+				.nav ul li			{
+									display: inline;
+									padding-left: 10px;
+									}
+								
+				.nav ul li a		{
+									font: bold 11px Arial;
+									color: #aaa;
+									}
+									
+				.nav ul li a.faq	{
+									background: url(../images/faq.png) no-repeat left center;
+									padding-left: 20px;
+									}
+									
+				.nav ul li a:hover	{
+									color: #fff;
+									}
+										
+				.nav ul li a.active	{
+									color: #fff;
+									}	
+				.nav ul li form    {
+									display:inline;
+									
+									}
+
+/* Content */
+			
+.content		{
+				background-color: #f1f1f1;
+				padding: 15px;
+				min-height: 350px;
+				}
+				
+.con_left		{
+				float: left;
+				width: 230px;
+				margin-right: 20px;
+				}
+				
+.con_right		{
+				float: left;
+				width: 700px;
+				}
+				
+				.box			{
+								padding: 25px;
+								margin-bottom: 5px;
+								background-color: #e1e1e1;
+								border-radius: 10px; /* CSS3 */
+								-moz-border-radius: 10px; /* Firefox */
+								-webkit-border-radius: 10px; /* Safari and Chrome */
+								-khtml-border-radius: 10px; /* Linux Browsers */
+								}
+								
+								h1.head			{
+												font: bold 18px 'Ubuntu';
+												color: #333;
+												margin-bottom: 15px;
+												letter-spacing: -1px;
+												}
+												
+								.box p input[type="text"]
+												{
+												height: 20px;
+												/*margin-right: 3px;*/
+												padding-left: 3px;
+												width: 150px;
+												}
+												
+								.box p input[type="submit"]
+												{
+												color: #333;
+												}
+												
+				.help			{
+								float: right;
+								width: 650px;
+								}
+								
+								.help ul		{
+												margin-left: 15px;
+												}
+												
+								.help ul li		{
+												list-style: disc outside;
+												margin-bottom: 3px;
+												}
+				
+				.login_box		{
+								width: 225px;
+								margin: 125px auto;
+								}
+								
+								.login_box p	{
+												font-size: 11px;
+												margin-bottom: 5px;
+												clear: both;
+												text-align: right;
+												line-height: 20px;
+												}
+												
+								.login_box input{
+												float: right;
+												}
+												
+								.login_box input[type="text"], .login_box input[type="password"] 
+												{
+												height: 20px;
+												padding-left: 3px;
+												margin: 0 0 5px 5px;
+												width: 150px;
+												}
+												
+								.login_box input[type="submit"], .login_box input[type="reset"]
+												{
+												color: #333;
+												width: 50px;
+												}
+												
+.host_table		{
+				margin: 0 -5px;
+				}
+				
+				.host_table td	{
+								font: normal 12px/16px Arial;
+								padding: 3px 5px 3px 3px;
+								color: #333;
+								border: 1px solid #e5e5e5;
+								}
+								
+				.host_table td:first-child
+								{
+								background-color: #e5e5e5;
+								text-align: right;
+								color: #079;
+								}
+								
+.ip_table		{
+				}
+				
+				.ip_table td	{
+								background-color: #fafbfc;
+								color: #555;
+								}
+								
+				.ip_table td:first-child
+								{
+								background-color: #fafbfc;
+								color: #555;
+								}
+								
+				.ip_table td.heading
+								{
+								background-color: #999;
+								color: #fafbfc;
+								font-weight: bold;
+								}
+								
+a.graph			{
+				float: right;
+				margin: 7px 3px 0 0;
+				font: normal 11px Arial;
+				padding-left: 20px;
+				background: url(../images/chart.png) no-repeat left center;
+				}
+				
+a.graph:hover	{
+				text-decoration: underline;
+				}
+				
+.modal_box		{
+				min-height: 600px;
+				min-width: 750px;
+				padding: 15px;
+				}
+				
+.selected_ip	{
+				font: bold 18px/35px 'Ubuntu';
+				color: #fff;
+				text-align: center;
+				background: url(../images/header_bg.png) repeat-x;
+				border-radius: 10px; /* CSS3 */
+				-moz-border-radius: 10px; /* Firefox */
+				-webkit-border-radius: 10px; /* Safari and Chrome */
+				-khtml-border-radius: 10px; /* Linux Browsers */
+				margin-bottom: 10px;
+				}
+				
+#graphHolder4graph
+				{
+				font: bold 15px/25px 'Ubuntu';
+				color: #333;
+				padding-top: 10px;
+				border-top: 1px dotted #999;
+				}
+				
+#graph			{
+				font: normal 11px/15px Arial;
+				color: #333;
+				}
+								
+/* Footer */
+				
+.footer			{
+				height: 50px;
+				margin-top: 25px;
+				}
+				
+				.footer p		{
+								font: normal 10px Arial;
+								color: #666;
+								line-height: 30px;
+								text-align: center;
+								}
+.graph_table td {padding: 15px 10px; border: 1px solid #ccc;}
+                                                                
+ul.graphs      {
+               margin: 10px 0 0 15px !important; 
+               }                                                                
+               
+ul.graphs li   {
+               list-style: disc; 
+               }                                                                
